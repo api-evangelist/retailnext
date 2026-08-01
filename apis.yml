@@ -1,8 +1,30 @@
 aid: retailnext
 name: RetailNext
-description: RetailNext is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  RetailNext is an AI-powered in-store retail analytics platform that helps
+  physical retailers understand shopper behavior and optimize store operations.
+  Its product suite spans traffic analytics (real-time foot-traffic counting and
+  benchmarking across locations), shopper journey and zone insights (which
+  layouts convert and where shoppers are lost), asset protection and loss
+  prevention that combines video intelligence with shopper analytics, and Pulse
+  AI, a conversational layer for answering retail questions in plain language.
+  The platform is used by 600+ retailers across 100+ countries, including brands
+  such as Macy's, Sephora, and Calvin Klein. RetailNext is a Battery Ventures
+  portfolio company. It maintains a public GitHub organization of open-source
+  infrastructure tooling and publishes a responsible-disclosure security program,
+  but does not currently expose a publicly documented developer API or portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://retailnext.net/hubfs/RetailNext_Logo.png
 url: https://raw.githubusercontent.com/api-evangelist/retailnext/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- Retail Analytics
+- In-Store Analytics
+- Shopper Analytics
+- Foot Traffic
+- Loss Prevention
+- Computer Vision
+- Physical Retail
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/retailnext-domain-security.yml
+- type: Website
+  url: https://retailnext.net/
+- type: Pricing
+  url: https://retailnext.net/pricing
+- type: PrivacyPolicy
+  url: https://retailnext.net/legal/privacy-policy
+- type: TermsOfService
+  url: https://retailnext.net/legal/terms-of-use
+- type: Support
+  url: https://retailnext.net/about/support
+- type: Blog
+  url: https://retailnext.net/resources/blog
+- type: GitHubOrganization
+  url: https://github.com/retailnext
+- type: SecurityTxt
+  url: well-known/retailnext-security.txt
+- type: WellKnown
+  url: well-known/retailnext-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/retailnext-vulnerability-disclosure.yml
+- type: Security
+  url: https://retailnext.net/security-report
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

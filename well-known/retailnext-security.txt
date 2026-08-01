@@ -1,0 +1,6 @@
+# RetailNext Responsible Disclosure Program
+Contact: https://retailnext.net/security-report
+Contact: mailto:responsible-disclosure@retailnext.net
+Expires: 2027-07-15T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://retailnext.net/.well-known/security.txt
