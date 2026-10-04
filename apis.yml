@@ -54,7 +54,7 @@ tags:
 - Shopper Analytics
 - Foot Traffic
 - Loss Prevention
-- Computer-Vision
+- Computer Vision
 - Physical Retail
 tags_raw:
 - Company
@@ -66,6 +66,7 @@ tags_raw:
 - Loss Prevention
 - Computer Vision
 - Physical Retail
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
