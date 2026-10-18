@@ -27,5 +27,5 @@
     - connectors/applications/retailnext
     vendor_link: https://retailnext.net/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
